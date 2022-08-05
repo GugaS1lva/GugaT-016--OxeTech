@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to bottom, #823595 45%, #010164);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    margin-left: 45px;
+}
+
+header a img {
+    width: 80%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 5px;
+    margin: 10px 35px;
+}
+
+.triangleFrame {
+    display: flex;
+    justify-content: center;
+    margin-left: -210px;
+}
+
+.triangleImg {
+    width: 900px;
+    height: 600px;
+}
+
+.logoList {
+    position: absolute;
+}
+
+.logoList ul {
+    list-style: none;
+}
+
+
+.labLogo {
+    width: 230px;
+    margin: 65px 0 0 220px;
+}
+
+.HatLogo {
+    width: 150px;
+    margin: 100px 0 0 260px;
+}
+
+.WorkLogo {
+    width: 300px;
+    margin: -100px 0 0 -180px;
+}
+
+.DinLogo {
+    width: 150px;
+    margin: 40px 0 0 580px;
+}
+
+
+.alagoasContainer {
+    position: absolute;
+}
+
+.alagoasLogo {
+    width: 240px;
+    margin: 72px 0 0 720px;
+}
